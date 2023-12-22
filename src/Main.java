@@ -73,7 +73,6 @@ public class Main {
 
         ApiResponce resp = api.returnBook(bookId);
         System.out.println(resp.getMessage());
-        System.out.println(123);
     }
 
     private static void showMyBooks() {
